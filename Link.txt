@@ -1,0 +1,25 @@
+A11 BETA VERSIONS
+
+(From android 10 17.0240.2108.103)
+BETA_1 [18.0210.2109.100] (1.59 GB)
+https://fota2.asus.com/delta_package/phone/WW_Phone/formal/17.0240.2108.103-user-WW_Phone-18.0210.2109.100-user-WW_Phone-1NM/17.0240.2108.103-user-WW_I001D-18.0210.2109.100-user-WW_I001D-10070233-fota-user.zip
+
+BETA_2 [18.0210.2110.110] (1.60 GB)
+https://fota2.asus.com/delta_package/phone/WW_Phone/formal/17.0240.2108.103-user-WW_Phone-18.0210.2110.110-user-WW_Phone-1NM/17.0240.2108.103-user-WW_I001D-18.0210.2110.110-user-WW_I001D-10140420-fota-user.zip
+
+BETA_3 [18.0210.2110.140] (1.60 GB)
+https://fota2.asus.com/delta_package/phone/WW_Phone/formal/17.0240.2108.103-user-WW_Phone-18.0210.2110.140-user-WW_Phone-1NM/17.0240.2108.103-user-WW_I001D-18.0210.2110.140-user-WW_I001D-10270207-fota-user.zip
+
+Incremental OTA
+
+BETA_1 to BETA_2 [18.0210.2109.100] to [18.0210.2110.110] (407.04 MB)
+https://fota2.asus.com/delta_package/phone/WW_Phone/formal/18.0210.2109.100-user-WW_Phone-18.0210.2110.110-user-WW_Phone-1NM/18.0210.2109.100-user-WW_I001D-18.0210.2110.110-user-WW_I001D-10140420-fota-user.zip
+
+BETA_2 to BETA_3 [18.0210.2110.110] to [18.0210.2110.140] (213.18 MB)
+https://fota2.asus.com/delta_package/phone/WW_Phone/formal/18.0210.2110.110-user-WW_Phone-18.0210.2110.140-user-WW_Phone-1NM/18.0210.2110.110-user-WW_I001D-18.0210.2110.140-user-WW_I001D-10270207-fota-user.zip
+
+
+
+ANDROID 10 STABLE VERSIONS
+
+TO BE ADDED
