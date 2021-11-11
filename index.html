@@ -2,13 +2,122 @@
 <html>
 
 <head>
-    <h1>ROG II OTA links
-    </h1>
     <title> FOTA LINKS</title>
-</head>
-<h3>Android 11 Beta.
-</h3>
+    <style>
+        body{
+            text-align: center;
+        }
+        .dark{
+            background-color: #1a1a1a;
+            color: rgb(252, 65, 8);
+        }
+        .dark hr{
+            width: 80%;
+            border: 1px solid salmon;
+        }
+        .dark a{
+            color: rgb(79, 89, 230);
+        }
 
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        /* Hide default HTML checkbox */
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        /* The slider */
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgb(172, 172, 172);
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: rgb(26, 26, 26);
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        input:checked + .slider {
+            background-color: #f35221;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #f33a21;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
+
+        #darkmodecontainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #darkmodetext{
+            padding-right: 5px;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var inputtoggle = document.getElementById('darkmodeinput');
+            var default_dark_mode = true;
+            inputtoggle.checked = default_dark_mode; 
+
+            inputtoggle.addEventListener('change', function() {
+                default_dark_mode = !default_dark_mode;
+                if (default_dark_mode) {
+                    document.body.classList.add('dark');
+                } else {
+                    document.body.classList.remove('dark');
+                }
+            });
+        });
+    </script>
+</head>
+<body class="dark">
+<h1>ROG II OTA links</h1>
+<div id="darkmodecontainer">
+    <span id="darkmodetext">Dark Mode</span>
+    <label class="switch">
+    <input id="darkmodeinput" type="checkbox">
+    <span class="slider round"></span>
+    </label>
+</div>
+
+<h3>Android 11 Beta.</h3>
 
 <p><a href="https://fota2.asus.com/delta_package/phone/WW_Phone/formal/17.0240.2108.103-user-WW_Phone-18.0210.2109.100-user-WW_Phone-1NM/17.0240.2108.103-user-WW_I001D-18.0210.2109.100-user-WW_I001D-10070233-fota-user.zip
     ">Beta_1 [18.0210.2109.100] (1.59 GB)</a></p>
@@ -79,5 +188,5 @@
 </h3>
 <p><a href="https://build.twrp.me/twrp-3.5.2_11-0-I001D.img
     ">TWRP-3.5.2_11-0-I001D (39.2 MB)</a></p>
-    
+</body>    
 </html>
