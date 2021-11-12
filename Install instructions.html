@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1>R2 ROM installation guide
+    </h1>
+</head>
+<h3>Android 11 BETA.
+</h3>
+<p>Android 11 Roms can detect changes in Boot, dtbo, and System image and can stop the installation process <br>
+ If twrp or magisk is installed the update wont install. Read the instructions carefully and follow the same <br>
+<br>
+1.Take backup of all your data. If you need to come back to A10 you need to format internal storage<br>
+2. Flash RAW and place the latest Android 10 ww firmware in internal storage and reboot to update the device to latest version 17.0240.2108.103<br>
+<br>
+2. Download the beta update and rename it to UL-ASUS_I001_1-"Version Number"-1.1.235-USER.zip and place it in internal storage and reboot
+<br>
+3. After reboot the device will detect system update file, click on update to update the device to Android 11
+<br>
+4.Place the further renamed ota zip in the internal storage to update to the next version
+</p>
+
+<h4>To Root</h4>
+<p>
+ To root the device you need to take backup of boot, dtbo and system image, every single time you update the Beta version.<br>
+5. Install TWRP recovery by fastboot boot twrp.img and use password to decrypt data.<br>
+6. Use twrp backup to take backup of boot, dtbo and system image (save it somewhere safe)<br>
+7. Go to Advanced settings --> "flash current TWRP" to install Twrp permanently.<br>
+8. Flash magisk and reboot and install the magisk apk and Enjoy<br>
+</p>
+<h4>To Install further ota</h4>
+<p>
+9. Download the now ota zip and save it in your device<br>
+10. Reboot the device to recovery<br>
+11. Restore the backed up boot, dtbo and system image<br>
+12. Install the update in twrp and restart system and make sure latest beta version is installed<br>
+13. Boot into TWRP by fastboot booting TWRP and folow steps 6 to 8<br>
+14. By following this you can update the device without any data loss and retain root.
+</p>
